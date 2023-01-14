@@ -2,10 +2,11 @@
 <html lang="ja">
 <head>
     <meta charset="utf-8">
-    <title>Start Page</title>
+    <title>{{title}}</title>
 </head>
 <body>
-    <h1>SAMPLE</h1>
-    <p>sample page</p>
+    <h1>{{title}}</h1>
+    <p>{{msg}}</p>
+    <p><a href="{% url goto %}">{{goto}}</a></p>
 </body>
 </html>
